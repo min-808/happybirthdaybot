@@ -8,7 +8,7 @@ const bot = new Discord.Client({disableEveryone: true});
 //This shows the presence of the bot. For example, it should say "Playing "Game""
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online`)
-  bot.user.setActivity(`do b!woopub`);
+  bot.user.setActivity(`happy birthday bot!`);
 })
 
 const fs = require("fs");
